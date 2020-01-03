@@ -95,7 +95,7 @@ def movies_with_directors_set(source)
     new_array << movies_with_directors_key(name, directors_movies)
     row_index += 1 
   end
- return new_array
+  new_array
 end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
